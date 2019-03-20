@@ -8,3 +8,4 @@ git clone 					download the complete repository into the local system
 touch .gitignore			all the files listed in this folder will be ignored for upload		
 git branch 'branch_name'	adds branch to the repository
 git checkout 'branch_name'  changes to the new working branch
+--Thanks 
