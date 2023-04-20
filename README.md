@@ -25,3 +25,18 @@ AFTER SUCCESSFUL COMPLETION OF THE INSTALLATION
 9. TO UPLOAD THE FILE/FILES USE COMMAND ( GIT ADD 'file name'/ GIT ADD * |THIS COMMAND ADDS ALL THE FILE FOR UPLOAD|)
 10. TO FINALIZE THE ADDINGS USE COMMAND GIT COMMIT -M "ANY MESSAGE REGARDING THE FILE" FILE_NAME / *
 11. TO UPLOAD IT TO GITHUB USE GIT PUSH -U ORIGIN MASTER ( THIS UPLOADS THE FILE FOR THAT SPECFIC USER AND TO MASTER BRANCH)
+
+
+#2 Basic command in GIT:
+
+git init 					initialize  local git repository
+git add <file/*>				add file to index
+git status 					working status of a working tree
+git commit					commit changes				
+git push 					push file into the remote repository
+git pull					pulls latest files from repository
+git clone 					download the complete repository into the local system
+touch .gitignore				all the files listed in this folder will be ignored for upload		
+git branch 'branch_name'			adds branch to the repository
+git checkout 'branch_name'  			changes to the new working branch
+
